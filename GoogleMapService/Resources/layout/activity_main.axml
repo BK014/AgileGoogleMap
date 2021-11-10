@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff">
+
+    <ImageView
+        android:src="@drawable/logo1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:id="@+id/imgHangmanTitle"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/basic_map"
+        android:layout_margin="5dp"
+        android:id="@+id/btnbase"
+        android:background="@drawable/button"
+        android:textColor="#ff0c0c0c"
+        android:textStyle="normal"
+        android:textSize="35px" />
+    <Button
+        android:text="@string/track"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/btnlive"
+        android:textColor="#ff0e0f0e"
+   android:background="@drawable/button"
+        android:textStyle="normal"
+        android:textSize="35px" />
+    <Button
+        android:text="@string/dis_cal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/btndis"
+        android:background="@drawable/button"
+        android:textColor="#ff0c0c0c"
+        android:textStyle="normal"
+        android:textSize="35px"/>
+    <Button
+        android:text="@string/quit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/btnQuit"
+        android:background="@drawable/button"
+        android:textColor="#ff0c0c0c"
+        android:textStyle="normal"
+        android:textSize="35px"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/txtres"
+              android:textColor="#ff0c0c0c"/>
+
+</LinearLayout>

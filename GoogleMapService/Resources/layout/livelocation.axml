@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/bg">
+
+	<TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/latitude2" />
+	<TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/longitude2" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/provider2" />
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="375.0dp"
+        class="com.google.android.gms.maps.MapFragment"
+        android:layout_marginBottom="0.0dp"
+        android:layout_marginTop="42.5dp" />
+
+
+    <Button
+			android:id="@+id/btnback"
+			android:layout_height="45dp"
+			android:layout_width="match_parent"
+			android:hint="Back"
+			android:layout_margin="5dp"
+			android:textColor="#000"
+			android:padding="10dp"
+			android:textSize="20dp"
+			android:background="@drawable/button"
+			android:textColorHint="#000">
+			</Button>
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#ffffffff">
+
+
+		<ImageView
+			android:layout_height="100dp"
+			android:layout_width="match_parent"
+			        android:src="@drawable/logo1">
+			</ImageView>
+
+    <EditText
+        android:id="@+id/txtsrc"
+        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:hint="Source"
+        android:layout_margin="5dp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:background="@drawable/button"
+        android:textColorHint="#ff8c8484" >
+    </EditText>
+	<EditText
+			android:id="@+id/txtdest"
+			android:layout_height="45dp"
+			android:layout_width="match_parent"
+			android:hint="Destination"
+			android:layout_margin="5dp"
+			android:textColor="#000"
+			android:padding="10dp"
+			android:textSize="20dp"
+			android:background="@drawable/button"
+			    android:textColorHint="#ff8c8484" >
+			</EditText>
+	<Button
+			android:id="@+id/btncal"
+			android:layout_height="45dp"
+			android:layout_width="match_parent"
+			android:hint="Calculate"
+			android:layout_margin="5dp"
+			android:textColor="#000"
+			android:padding="10dp"
+			android:textSize="20dp"
+			android:background="@drawable/button"
+			android:textColorHint="#000">
+			</Button>
+    <TextView
+        android:id="@+id/txtdis"
+        android:layout_height="110.0dp"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textAlignment="center" 
+			>
+    </TextView>
+
+	<Button
+			android:id="@+id/btnback"
+			android:layout_height="45dp"
+			android:layout_width="match_parent"
+			android:hint="Back"
+			android:layout_margin="5dp"
+			android:textColor="#000"
+			android:padding="10dp"
+			android:textSize="20dp"
+			android:background="@drawable/button"
+			android:textColorHint="#000">
+			</Button>
+
+</LinearLayout>
